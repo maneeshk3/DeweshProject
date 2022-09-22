@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.loginbox{
+    width: 100vmax;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+   
+}
+
+.form {
+    position: relative; 
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    /* background-color: red; */
+    background: rgb(219, 205, 205);
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    /* shadow (x asis, y asix, blur, size, color */
+    box-shadow: -3px -3px pink, 5px 5px 10px 5px pink;
+}
+
+.form h2{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.form .inputOne input, .form .inputTwo input{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+
+.subBtn{
+    display: block;
+    margin-left: auto;
+    background-color: rgb(102, 36, 208);
+    font-size: 1em;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 5px; /*padding is top , right, bottom, left*/
+    margin-top: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
